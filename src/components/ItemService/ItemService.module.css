@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 3.5rem;
+  margin-top: 3rem;
+}
+.containerTitle {
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+  background-color: red;
+}
+
+.container > img {
+  height: 187px;
+  padding-bottom: 1rem;
+}
+
+.container > h3 {
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 27.5px;
+}
+
+.container > span {
+  margin-top: 1.3rem;
+  margin-bottom: 3rem;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  height: 80px;
+}
+
+.containerHz {
+  display: flex;
+  width: 45%;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 3.5rem;
+  margin-top: 3rem;
+}
+
+.containerHz > .containerImg > img {
+  /*width:115px;*/
+  height: 98px;
+}
+
+.containerText {
+  width: 70%;
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.containerImg {
+  width: 30%;
+}
+
+.containerSubText {
+  width: 80%;
+  padding-top: 1.5rem;
+}
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .container > span {
+    height: 100%;
+    font-size: 13px;
+  }
+  .containerHz {
+    width: 100%;
+  padding-bottom: 0rem;
+  }
+
+  .containerText {
+    width: 100%;
+  }
+  .containerImg {
+    width: 100%;
+  }
+  .containerSubText {
+    width: 100%;
+  }
+  .containerHz > .containerImg > img {
+    height: 100%;
+  }
+}

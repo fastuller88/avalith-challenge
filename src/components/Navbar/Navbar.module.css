@@ -1,0 +1,33 @@
+.nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 2rem 0rem;
+  width: 100%;
+}
+
+.container img {
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger span {
+  height: 2px;
+  width: 20px;
+  background: #231f1f;
+  margin-bottom: 4px;
+}

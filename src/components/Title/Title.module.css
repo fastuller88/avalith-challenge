@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+}
+
+h1 {
+  line-height: 105%;
+  font-style: normal;
+  font-weight: 300;
+}
+
+h1 > strong {
+  font-weight: 700;
+}
+
+h1 > em {
+  font-weight: 700;
+  color: #e61e3d;
+  font-style: normal;
+}
+
+h1 > p {
+  font-weight: normal;
+  line-height: 160%;
+}
+
+.xlarge > h1 {
+  font-size: 80px;
+}
+
+.large2 > h1 {
+  font-size: 53px;
+}
+
+.large > h1 {
+  font-size: 44px;
+}
+
+.medium > h1 {
+  font-size: 20px;
+}
+
+.xmedium > h1 {
+  font-size: 29px;
+}
+
+.xxmedium > h1 {
+  font-size: 36px;
+}
+.small > h1 {
+  font-size: 16px;
+}
+@media screen and (max-width: 700px) {
+  .xlarge > h1 {
+    font-size: 40px;
+  }
+
+  .large2 > h1 {
+    font-size: 44px;
+  }
+
+  .large > h1 {
+    font-size: 36px;
+  }
+
+  .medium > h1 {
+    font-size: 9px;
+  }
+
+  .xmedium > h1 {
+    font-size: 28px;
+  }
+
+  .xxmedium > h1 {
+    font-size: 25px;
+  }
+  .small > h1 {
+    font-size: 6px;
+  }
+  span {
+    font-size: 13px;
+  }
+  h1 > p {
+    line-height: 160%;
+    font-size: 20px;
+    font-weight: normal;
+  }
+}
